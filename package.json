@@ -8,13 +8,20 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "start:dev": "nodemon index.js",
     "test": "node test.js"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^2.5.6",
-    "express": "^4.15.2"
+    "express": "^4.15.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.38.0"
   },
   "devDependencies": {
+    "nodemon": "^1.17.5",
     "request": "^2.81.0",
     "tape": "^4.7.0"
   },
